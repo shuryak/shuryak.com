@@ -1,0 +1,58 @@
+@import 'common.scss';
+
+$cardBorderRadius: 28px;
+$cardShadowOpacity: 0.04;
+$avatarImageSize: 200px;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid $borderColorCommon;
+  border-radius: $cardBorderRadius;
+  padding: $cardBorderRadius 0;
+  width: 340px;
+  height: 420px;
+  -webkit-box-shadow: 0 4px 28px 12px rgba(0, 0, 0, $cardShadowOpacity);
+  -moz-box-shadow: 0 4px 28px 12px rgba(0, 0, 0, $cardShadowOpacity);
+  box-shadow: 0 4px 28px 12px rgba(0, 0, 0, $cardShadowOpacity);
+
+  .avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+
+    img {
+      width: $avatarImageSize;
+      height: $avatarImageSize;
+      border-radius: 50%;
+    }
+  }
+
+  .card-name {
+    padding: 0;
+    margin: 10px 0 0;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .card-short-about {
+    padding: 0;
+    margin: 8px 0 0;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.6px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0 0;
+    padding: 0;
+  }
+}

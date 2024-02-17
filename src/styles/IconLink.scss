@@ -1,0 +1,22 @@
+@import 'common.scss';
+@import 'Card.scss';
+
+.icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4px;
+  padding: 8px;
+  border: 1px solid $borderColorCommon;
+  border-radius: calc($cardBorderRadius / 2);
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  transition: 150ms;
+
+  &:hover {
+    border-color: darken($borderColorCommon, 10);
+  }
+}

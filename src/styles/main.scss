@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  color: #101010;
+  background-color: #f7f7f7;
+  font-family: 'Inter', sans-serif;
+  height: 100%;
+
+  background-image: url('@assets/noise.png');
+  background-attachment: fixed;
+}
