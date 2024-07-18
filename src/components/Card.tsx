@@ -26,7 +26,7 @@ const Card = () => {
       <div className="links">
         <IconLink iconUrl={ghLogo} alt="GitHub" href="https://github.com/shuryak"/>
         <IconLink iconUrl={tgLogo} alt="Telegram" href="https://t.me/shuryak"/>
-        <IconLink iconUrl={vkLogo} alt="ВКонтакте" href="https://vk.com/shooryak"/>
+        <IconLink iconUrl={vkLogo} alt="ВКонтакте" href="https://vk.com/sql"/>
       </div>
     </div>
   )
